@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrawlLook</title>
+</head>
+<body>
+    <h1>Brawler Lookup</h1>
+    <p>Coderclass</p>
+    <button onclick="location.href='/function_one'">Player Lookup</button>
+    <button onclick="location.href='/function_two'">Brawler Lookup</button>
+    <button onclick="location.href='/function_three'">Ranking Look up</button>
+
+    {% if result %}
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
